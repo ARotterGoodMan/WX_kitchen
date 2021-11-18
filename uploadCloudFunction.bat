@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e sxy-3ga7ol6aafdb138d --n quickstartFunctions --r --project "E:\wechart\kitchen" --report_first --report
