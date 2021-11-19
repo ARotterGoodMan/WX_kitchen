@@ -1,25 +1,14 @@
 <!--components/list/index.wxml-->
-<view class="container">
-    <scroll-view class="scroll_H" scroll-x="true" width="100%">
-        <image class="image" src="../../images/btn_search_box.gif">1</image>
-        <image class="image" src="../../images/btn_search_box.gif">2</image>
-        <image class="image" src="../../images/btn_search_box.gif">3</image>
-        <image class="image" src="../../images/btn_search_box.gif">4</image>
-        <image class="image" src="../../images/btn_search_box.gif">5</image>
-        <image class="image" src="../../images/btn_search_box.gif">6</image>
-        <image class="image" src="../../images/btn_search_box.gif">7</image>
-        <image class="image" src="../../images/btn_search_box.gif">8</image>
-        <image class="image" src="../../images/btn_search_box.gif">9</image>
-        <image class="image" src="../../images/btn_search_box.gif">10</image>
-        <image class="image" src="../../images/btn_search_box.gif">11</image>
-        <image class="image" src="../../images/btn_search_box.gif">12</image>
-        <image class="image" src="../../images/btn_search_box.gif">13</image>
-        <image class="image" src="../../images/btn_search_box.gif">14</image>
-        <image class="image" src="../../images/btn_search_box.gif">15</image>
-        <image class="image" src="../../images/btn_search_box.gif">16</image>
-        <image class="image" src="../../images/btn_search_box.gif">17</image>
-        <image class="image" src="../../images/btn_search_box.gif">18</image>
-        <image class="image" src="../../images/btn_search_box.gif">19</image>
-        <image class="image" src="../../images/btn_search_box.gif">20</image>
-    </scroll-view>
-</view>
+<scroll-view bindscroll="sss" scroll-x="true" style="width:96vw"
+             class="scroll_H">
+    <view wx:for="{{list}}" wx:for-index="num" wx:key="num">
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+        <image class="image" src="../../images/btn_search_box.gif"></image>
+    </view>
+</scroll-view>

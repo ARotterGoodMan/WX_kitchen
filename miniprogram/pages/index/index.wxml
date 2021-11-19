@@ -11,8 +11,6 @@
                    class="btn" bind:tap="search"></image>
         </form>
     </view>
-
-        <list></list>
-
+        <list list="{{scroll_list}}"></list>
 
 </view>

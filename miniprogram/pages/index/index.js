@@ -7,7 +7,8 @@ Page({
     data: {
         envList,
         search_value: "",
-        search_placeholder: "搜索"
+        search_placeholder: "搜索",
+        scroll_list:2,
     },
     getSearchValue(e) {
         console.log(e)
@@ -34,6 +35,7 @@ Page({
             search_value: "",
             search_placeholder: "搜索"
         })
-    }
+    },
+
 
 });
