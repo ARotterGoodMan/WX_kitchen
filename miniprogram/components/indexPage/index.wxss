@@ -1,0 +1,27 @@
+/* components/indexPage/index.wxss */
+/**index.wxss**/
+.container {
+  text-align: center;
+}
+.search_box{
+  margin-top: 10px;
+  border-radius: 30px;
+  border: aqua 2px solid;
+  width: 90vw;
+  height: 40rpx;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.swap_value{
+  display: block;
+  float: left;
+  text-align: center;
+  width: 85%;
+}
+.btn{
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: right;
+  border-radius: 30px;
+}
