@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "list": "../../components/list/"
+    "list": "../../components/list",
+    "BottomNav": "../../components/BottomNav"
   }
 }

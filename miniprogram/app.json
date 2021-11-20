@@ -1,12 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "components/list/index"
+    "pages/classIfication/index",
+    "pages/my/index"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#e1af7f",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#e1af7f",
     "navigationBarTitleText": "福乐家厨房",
     "navigationBarTextStyle": "black"
   },

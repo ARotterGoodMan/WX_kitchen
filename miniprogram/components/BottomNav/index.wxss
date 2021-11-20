@@ -1,0 +1,23 @@
+/* components/BottomNav/index.wxss */
+.container {
+    display: flex;
+    flex: content;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 45px;
+}
+
+.tab {
+    width: 33.3vw;
+    color: blue;
+    text-align: center;
+}
+
+.tabImage {
+    width: 80%;
+    height: 100%;
+}
+
