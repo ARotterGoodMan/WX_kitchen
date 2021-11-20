@@ -1,6 +1,8 @@
 {
   "usingComponents": {
-    "list": "../../components/list",
-    "BottomNav": "../../components/BottomNav"
+    "indexPage": "../../components/indexPage",
+    "categoryPage": "../../components/categoryPage",
+    "myPage": "../../components/myPage",
+    "BottomNav": "../../components/functions/BottomNav"
   }
 }
