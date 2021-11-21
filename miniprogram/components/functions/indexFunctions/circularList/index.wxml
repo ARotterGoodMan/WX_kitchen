@@ -1,0 +1,14 @@
+<!--components/list/index.wxml-->
+<scroll-view bindscroll="sss" scroll-x="true" style="width:96vw"
+             class="scroll_H">
+  <view wx:for="{{list}}" wx:for-index="num" wx:key="num">
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+    <image class="image" src="../../../../images/btn_search_box.gif"></image>
+  </view>
+</scroll-view>

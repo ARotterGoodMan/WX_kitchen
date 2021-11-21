@@ -1,6 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../functions/list"
+    "circularList": "../functions/indexFunctions/circularList",
+    "searchFrom": "../functions/indexFunctions/searchFrom",
+    "swiperImage": "../functions/indexFunctions/swiperImage"
   }
 }

@@ -1,7 +1,8 @@
 <!--index.wxml-->
-<view class="container">
-    <indexPage wx:if="{{tapNum==='1'}}" ></indexPage>
-    <categoryPage wx:elif="{{tapNum==='2'}}">"</categoryPage>
-    <myPage wx:elif="{{tapNum==='3'}}"></myPage>
-    <BottomNav bind:tapTo="tapTo"></BottomNav>
+<view class="container" wx:if="{{load==='ok'}}">
+  <BottomNav bind:tapTo="tapTo"></BottomNav>
+  <indexPage swiperImages="{{swiperImages}}"
+             wx:if="{{tapNum==='1'}}"></indexPage>
+  <categoryPage wx:elif="{{tapNum==='2'}}">"</categoryPage>
+  <myPage wx:elif="{{tapNum==='3'}}"></myPage>
 </view>

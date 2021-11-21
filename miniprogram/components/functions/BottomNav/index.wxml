@@ -1,12 +1,12 @@
 <!--components/BottomNav/index.wxml-->
 <view class="container">
   <view class="tab tab1" bindtap="tapTo" wx:key="1" id="1">
-        <image src="../../../images/tab.png" class="tabImage"></image>
-    </view>
-    <view class="tab tab2" bindtap="tapTo" wx:key="2" id="2">
-        <image src="../../../images/tab.png" class="tabImage"></image>
-    </view>
-    <view class="tab tab3" bindtap="tapTo" wx:key="3" id="3">
-        <image src="../../../images/login.png" class="tabImage"></image>
-    </view>
+    <image src="../../../images/tab.png" class="tabImage"></image>
+  </view>
+  <view class="tab tab2" bindtap="tapTo" wx:key="2" id="2">
+    <image src="../../../images/tab.png" class="tabImage"></image>
+  </view>
+  <view class="tab tab3" bindtap="tapTo" wx:key="3" id="3">
+    <image src="../../../images/login.png" class="tabImage"></image>
+  </view>
 </view>
