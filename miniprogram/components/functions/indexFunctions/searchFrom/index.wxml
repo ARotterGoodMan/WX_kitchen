@@ -1,0 +1,11 @@
+<!--components/functions/searchFrom/index.wxml-->
+<view id="search_box" class="search_box">
+  <form class="search_form" method="post" action="#">
+    <input type="text" id="s" value="{{search_value}}"
+           placeholder="{{search_placeholder}}"
+           class="swap_value" bind:focus="searchClear"
+           bind:blur="getSearchValue"/>
+    <image src="../../../../images/btn_search_box.gif"
+           class="btn" bind:tap="search"></image>
+  </form>
+</view>

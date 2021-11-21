@@ -1,0 +1,7 @@
+<!--components/functions/swiperImage/index.wxml-->
+<swiper indicator-dots="true" circular="true" class="swiper">
+  <swiper-item wx:for="{{images}}" wx:for-index="index" wx:for-item="item"
+               wx:key="index" item-id="{{index}}" class="swiper-item">
+    <image src="{{item.fileID}}"></image>
+  </swiper-item>
+</swiper>
